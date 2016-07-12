@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="学习笔记,集合框架,Collection," />
+  <meta name="keywords" content="学习笔记,IO流,BufferedReader," />
 
 
 
@@ -84,28 +84,16 @@
 
 
 
-<meta name="description" content="集合框架为什么会出现集合类？
-面向对象语言对事物的体现都是以对象的形式，所以为了方便对多个对象的操作，就对对象进行存储，集合就是存储对象最常用的一种方式。数组和集合类同是容器，有何不同？
-数组虽然也可以存储对象，但长度是固定的；集合的长度是可以改变的。
-数组中可以存储基本数据类型；集合只能存储对象。">
+<meta name="description" content="通过StringBuilder的方法来模拟BufferedReader功能代码演示12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061package comio;import java.io.*;public class My">
 <meta property="og:type" content="article">
-<meta property="og:title" content="集合框架-Collection概述">
-<meta property="og:url" content="http://blog.zyzhy.com/posts/javabase/2016-07-03-集合框架-Collection概述.html">
+<meta property="og:title" content="IO流-模拟BufferederReader">
+<meta property="og:url" content="http://blog.zyzhy.com/posts/javabase/2016-07-12-IO流-模拟BufferedReader练习.html">
 <meta property="og:site_name" content="Joney's Blog">
-<meta property="og:description" content="集合框架为什么会出现集合类？
-面向对象语言对事物的体现都是以对象的形式，所以为了方便对多个对象的操作，就对对象进行存储，集合就是存储对象最常用的一种方式。数组和集合类同是容器，有何不同？
-数组虽然也可以存储对象，但长度是固定的；集合的长度是可以改变的。
-数组中可以存储基本数据类型；集合只能存储对象。">
-<meta property="og:image" content="http://blog.zyzhy.com/\images\java中集合类的关系图.png">
-<meta property="og:image" content="http://blog.zyzhy.com/\images\Collection.png">
-<meta property="og:updated_time" content="2016-07-04T09:52:53.354Z">
+<meta property="og:description" content="通过StringBuilder的方法来模拟BufferedReader功能代码演示12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061package comio;import java.io.*;public class My">
+<meta property="og:updated_time" content="2016-07-12T13:14:58.984Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="集合框架-Collection概述">
-<meta name="twitter:description" content="集合框架为什么会出现集合类？
-面向对象语言对事物的体现都是以对象的形式，所以为了方便对多个对象的操作，就对对象进行存储，集合就是存储对象最常用的一种方式。数组和集合类同是容器，有何不同？
-数组虽然也可以存储对象，但长度是固定的；集合的长度是可以改变的。
-数组中可以存储基本数据类型；集合只能存储对象。">
-<meta name="twitter:image" content="http://blog.zyzhy.com/\images\java中集合类的关系图.png">
+<meta name="twitter:title" content="IO流-模拟BufferederReader">
+<meta name="twitter:description" content="通过StringBuilder的方法来模拟BufferedReader功能代码演示12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061package comio;import java.io.*;public class My">
 
 
 
@@ -126,9 +114,9 @@
 
 
 
-  <link rel="canonical" href="http://blog.zyzhy.com/posts/javabase/2016-07-03-集合框架-Collection概述.html"/>
+  <link rel="canonical" href="http://blog.zyzhy.com/posts/javabase/2016-07-12-IO流-模拟BufferedReader练习.html"/>
 
-  <title> 集合框架-Collection概述 | Joney's Blog </title>
+  <title> IO流-模拟BufferederReader | Joney's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -281,7 +269,7 @@
             
             
               
-                集合框架-Collection概述
+                IO流-模拟BufferederReader
               
             
           </h1>
@@ -293,8 +281,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-07-03T10:09:20+08:00" content="2016-07-03">
-              2016-07-03
+            <time itemprop="dateCreated" datetime="2016-07-12T21:01:20+08:00" content="2016-07-12">
+              2016-07-12
             </time>
           </span>
 
@@ -323,8 +311,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/posts/javabase/2016-07-03-集合框架-Collection概述.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/javabase/2016-07-03-集合框架-Collection概述.html" itemprop="commentsCount"></span>
+                <a href="/posts/javabase/2016-07-12-IO流-模拟BufferedReader练习.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/javabase/2016-07-12-IO流-模拟BufferedReader练习.html" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -334,7 +322,7 @@
 
           
           
-             <span id="/posts/javabase/2016-07-03-集合框架-Collection概述.html" class="leancloud_visitors" data-flag-title="集合框架-Collection概述">
+             <span id="/posts/javabase/2016-07-12-IO流-模拟BufferedReader练习.html" class="leancloud_visitors" data-flag-title="IO流-模拟BufferederReader">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -356,19 +344,7 @@
       
 
       
-        <h1 id="集合框架"><a href="#集合框架" class="headerlink" title="集合框架"></a>集合框架</h1><h2 id="为什么会出现集合类？"><a href="#为什么会出现集合类？" class="headerlink" title="为什么会出现集合类？"></a>为什么会出现集合类？</h2><ul>
-<li>面向对象语言对事物的体现都是以对象的形式，所以为了方便对多个对象的操作，就对对象进行存储，集合就是存储对象最常用的一种方式。<h2 id="数组和集合类同是容器，有何不同？"><a href="#数组和集合类同是容器，有何不同？" class="headerlink" title="数组和集合类同是容器，有何不同？"></a>数组和集合类同是容器，有何不同？</h2></li>
-<li>数组虽然也可以存储对象，但长度是固定的；集合的长度是可以改变的。</li>
-<li>数组中可以存储基本数据类型；集合只能存储对象。</li>
-</ul>
-<a id="more"></a>
-<p><img src="\images\java中集合类的关系图.png" alt="image"></p>
-<h2 id="集合类的特点"><a href="#集合类的特点" class="headerlink" title="集合类的特点"></a>集合类的特点</h2><ul>
-<li>集合只用于存储对象</li>
-<li>集合的长度是可变的</li>
-<li>集合可以存储不同类型的对象<h1 id="Collection体系示意图"><a href="#Collection体系示意图" class="headerlink" title="Collection体系示意图"></a>Collection体系示意图</h1><img src="\images\Collection.png" alt="image"><h2 id="Collection-练习"><a href="#Collection-练习" class="headerlink" title="Collection-练习"></a>Collection-练习</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> comcollection;</span><br><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CollectionDemo</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="comment">// TODO 自动生成的方法存根</span></span><br><span class="line">		base_method();</span><br><span class="line">		method_2();</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">method_2</span><span class="params">()</span></span>&#123;</span><br><span class="line">		<span class="comment">//创建两个集合</span></span><br><span class="line">		ArrayList al1 = <span class="keyword">new</span> ArrayList();</span><br><span class="line">		ArrayList al2 = <span class="keyword">new</span> ArrayList();</span><br><span class="line">		<span class="comment">//为两个集合分别添加对象，其中部分为相同对象</span></span><br><span class="line">		al1.add(<span class="string">"java01"</span>);</span><br><span class="line">		al1.add(<span class="string">"java02"</span>);</span><br><span class="line">		al1.add(<span class="string">"java03"</span>);</span><br><span class="line">		al1.add(<span class="string">"java04"</span>);</span><br><span class="line">		al2.add(<span class="string">"java03"</span>);</span><br><span class="line">		al2.add(<span class="string">"java04"</span>);</span><br><span class="line">		al2.add(<span class="string">"java05"</span>);</span><br><span class="line">		al2.add(<span class="string">"java06"</span>);</span><br><span class="line">		<span class="comment">//使用al1中只保留与al2有交集的对象</span></span><br><span class="line">		al1.removeAll(al2);</span><br><span class="line">		<span class="comment">//去除有交集的对象</span></span><br><span class="line">		al1.retainAll(al2);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">base_method</span><span class="params">()</span></span>&#123;</span><br><span class="line">		<span class="comment">//创建一个集合</span></span><br><span class="line">		ArrayList al = <span class="keyword">new</span> ArrayList();</span><br><span class="line">		<span class="comment">//添加对象到集合中</span></span><br><span class="line">		al.add(<span class="string">"java001"</span>);</span><br><span class="line">		al.add(<span class="string">"java002"</span>);</span><br><span class="line">		al.add(<span class="string">"java003"</span>);</span><br><span class="line">		al.add(<span class="string">"java004"</span>);</span><br><span class="line">		<span class="comment">//打印集合</span></span><br><span class="line">		sop(<span class="string">"原集合："</span>+al);</span><br><span class="line">		<span class="comment">//移除集合中的某个对象</span></span><br><span class="line">		al.remove(<span class="string">"java002"</span>);</span><br><span class="line">		<span class="comment">//判断集合是否包含某一对象</span></span><br><span class="line">		sop(<span class="string">"判断："</span>+al.contains(<span class="string">"java003"</span>));</span><br><span class="line">		<span class="comment">//清除集合中的所有对象</span></span><br><span class="line">		al.clear();</span><br><span class="line">	</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">sop</span><span class="params">(Object obj)</span></span>&#123;</span><br><span class="line">		System.out.println(obj);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-</ul>
-
+        <h2 id="通过StringBuilder的方法来模拟BufferedReader功能"><a href="#通过StringBuilder的方法来模拟BufferedReader功能" class="headerlink" title="通过StringBuilder的方法来模拟BufferedReader功能"></a>通过StringBuilder的方法来模拟BufferedReader功能</h2><h3 id="代码演示"><a href="#代码演示" class="headerlink" title="代码演示"></a>代码演示</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> comio;</span><br><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyBufferedReader</span> </span>&#123;</span><br><span class="line">	<span class="keyword">private</span> FileReader r;</span><br><span class="line">	MyBufferedReader(FileReader r)&#123;</span><br><span class="line">		<span class="keyword">this</span>.r = r;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">	<span class="function"><span class="keyword">public</span> String <span class="title">myReadLine</span><span class="params">()</span><span class="keyword">throws</span> IOException</span>&#123;</span><br><span class="line">		<span class="comment">//定义一个StringBuilder容器临时存储读取到的字符</span></span><br><span class="line">		StringBuilder sb = <span class="keyword">new</span> StringBuilder();</span><br><span class="line">		<span class="comment">//初始化一个整型变量</span></span><br><span class="line">		<span class="keyword">int</span> ch = <span class="number">0</span>;</span><br><span class="line">		<span class="comment">//如果文件中存在数据则进行循环操作</span></span><br><span class="line">		<span class="keyword">while</span>((ch=r.read())!=-<span class="number">1</span>)&#123;</span><br><span class="line">			<span class="comment">//如果读取到\r（回车符），则返回while继续循环操作</span></span><br><span class="line">			<span class="keyword">if</span>(ch==<span class="string">'\r'</span>)</span><br><span class="line">				<span class="keyword">continue</span>;</span><br><span class="line">			<span class="comment">//如果读取到\n（换行符），则返回读取到的数据</span></span><br><span class="line">			<span class="keyword">if</span>(ch==<span class="string">'\n'</span>)</span><br><span class="line">				<span class="keyword">return</span> sb.toString();</span><br><span class="line">			<span class="comment">//如果读取完成，则将ch强转为char类型数据，并将读取到的数据添加到sb中</span></span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">				sb.append((<span class="keyword">char</span>)ch);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="comment">//如果sb中有数据，则返回读取到的数据</span></span><br><span class="line">		<span class="keyword">if</span>(sb.length()!=<span class="number">0</span>)</span><br><span class="line">			<span class="keyword">return</span> sb.toString();</span><br><span class="line">		<span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">myClose</span><span class="params">()</span><span class="keyword">throws</span> IOException</span>&#123;</span><br><span class="line">		<span class="comment">//调用FileReader中的close方法关闭流资源</span></span><br><span class="line">		r.close();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyBufferedReaderDemo</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		</span><br><span class="line">		FileReader fr = <span class="keyword">null</span>;</span><br><span class="line">		MyBufferedReader mybu =<span class="keyword">null</span>;</span><br><span class="line">		<span class="keyword">try</span>&#123;</span><br><span class="line">			fr = <span class="keyword">new</span> FileReader(<span class="string">"buff.txt"</span>);</span><br><span class="line">			mybu = <span class="keyword">new</span> MyBufferedReader(fr);</span><br><span class="line">			String line = <span class="keyword">null</span>;</span><br><span class="line">			<span class="keyword">while</span>((line=mybu.myReadLine())!=<span class="keyword">null</span>)&#123;</span><br><span class="line">				System.out.println(line);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;<span class="keyword">catch</span>(IOException e)&#123;</span><br><span class="line">			<span class="keyword">throw</span> <span class="keyword">new</span> RuntimeException(<span class="string">"读取失败"</span>);</span><br><span class="line">		&#125;<span class="keyword">finally</span>&#123;</span><br><span class="line">			<span class="keyword">try</span>&#123;</span><br><span class="line">				<span class="keyword">if</span>(fr!=<span class="keyword">null</span>)</span><br><span class="line">					mybu.myClose();</span><br><span class="line">			&#125;<span class="keyword">catch</span>(IOException e)&#123;</span><br><span class="line">				<span class="keyword">throw</span> <span class="keyword">new</span> RuntimeException(<span class="string">"关闭读取流失败"</span>);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;	</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -391,9 +367,9 @@
           
             <a href="/tags/note/" rel="tag">#学习笔记</a>
           
-            <a href="/tags/集合框架/" rel="tag">#集合框架</a>
+            <a href="/tags/IO流/" rel="tag">#IO流</a>
           
-            <a href="/tags/Collection/" rel="tag">#Collection</a>
+            <a href="/tags/BufferedReader/" rel="tag">#BufferedReader</a>
           
         </div>
       
@@ -402,17 +378,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/posts/javabase/2016-07-01-基本数据类型对象包装类.html" rel="next" title="基本数据类型对象包装类">
-                <i class="fa fa-chevron-left"></i> 基本数据类型对象包装类
+              <a href="/posts/javabase/2016-07-12-IO流-copy练习.html" rel="next" title="IO流-copy练习">
+                <i class="fa fa-chevron-left"></i> IO流-copy练习
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/posts/javabase/2016-07-03-集合框架-List集合的共性方法.html" rel="prev" title="集合框架-List">
-                集合框架-List <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -427,10 +399,10 @@
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="posts/javabase/2016-07-03-集合框架-Collection概述.html"
-     data-title="集合框架-Collection概述"
+        <div class="ds-share flat" data-thread-key="posts/javabase/2016-07-12-IO流-模拟BufferedReader练习.html"
+     data-title="IO流-模拟BufferederReader"
      data-content=""
-     data-url="http://blog.zyzhy.com/posts/javabase/2016-07-03-集合框架-Collection概述.html">
+     data-url="http://blog.zyzhy.com/posts/javabase/2016-07-12-IO流-模拟BufferedReader练习.html">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -457,8 +429,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="posts/javabase/2016-07-03-集合框架-Collection概述.html"
-           data-title="集合框架-Collection概述" data-url="http://blog.zyzhy.com/posts/javabase/2016-07-03-集合框架-Collection概述.html">
+      <div class="ds-thread" data-thread-key="posts/javabase/2016-07-12-IO流-模拟BufferedReader练习.html"
+           data-title="IO流-模拟BufferederReader" data-url="http://blog.zyzhy.com/posts/javabase/2016-07-12-IO流-模拟BufferedReader练习.html">
       </div>
     
   </div>
@@ -569,7 +541,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#集合框架"><span class="nav-number">1.</span> <span class="nav-text">集合框架</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么会出现集合类？"><span class="nav-number">1.1.</span> <span class="nav-text">为什么会出现集合类？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数组和集合类同是容器，有何不同？"><span class="nav-number">1.2.</span> <span class="nav-text">数组和集合类同是容器，有何不同？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#集合类的特点"><span class="nav-number">1.3.</span> <span class="nav-text">集合类的特点</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Collection体系示意图"><span class="nav-number">2.</span> <span class="nav-text">Collection体系示意图</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Collection-练习"><span class="nav-number">2.1.</span> <span class="nav-text">Collection-练习</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#通过StringBuilder的方法来模拟BufferedReader功能"><span class="nav-number">1.</span> <span class="nav-text">通过StringBuilder的方法来模拟BufferedReader功能</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#代码演示"><span class="nav-number">1.1.</span> <span class="nav-text">代码演示</span></a></li></ol></li></ol></div>
             
           </div>
         </section>
