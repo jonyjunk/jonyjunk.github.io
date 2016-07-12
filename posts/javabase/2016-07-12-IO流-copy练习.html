@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="蒋顺理,joney,java学习,java基础,诗和远方" />
+  <meta name="keywords" content="学习笔记,IO流,FlieWriter,FileReader," />
 
 
 
@@ -84,15 +84,16 @@
 
 
 
-<meta name="description" content="还似旧时游上苑，车如流水马如龙，花月正春风。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Joney's Blog">
-<meta property="og:url" content="http://blog.zyzhy.com/archives/index.html">
+<meta name="description" content="FileWriter和FileReader综合练习需求:复制一个文档类型的文件到硬盘上">
+<meta property="og:type" content="article">
+<meta property="og:title" content="IO流-copy练习">
+<meta property="og:url" content="http://blog.zyzhy.com/posts/javabase/2016-07-12-IO流-copy练习.html">
 <meta property="og:site_name" content="Joney's Blog">
-<meta property="og:description" content="还似旧时游上苑，车如流水马如龙，花月正春风。">
+<meta property="og:description" content="FileWriter和FileReader综合练习需求:复制一个文档类型的文件到硬盘上">
+<meta property="og:updated_time" content="2016-07-12T08:51:22.984Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Joney's Blog">
-<meta name="twitter:description" content="还似旧时游上苑，车如流水马如龙，花月正春风。">
+<meta name="twitter:title" content="IO流-copy练习">
+<meta name="twitter:description" content="FileWriter和FileReader综合练习需求:复制一个文档类型的文件到硬盘上">
 
 
 
@@ -113,9 +114,9 @@
 
 
 
-  <link rel="canonical" href="http://blog.zyzhy.com/archives/"/>
+  <link rel="canonical" href="http://blog.zyzhy.com/posts/javabase/2016-07-12-IO流-copy练习.html"/>
 
-  <title> 归档 | Joney's Blog </title>
+  <title> IO流-copy练习 | Joney's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -136,7 +137,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -247,403 +248,181 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 14 篇日志。 继续努力。
-    </span>
-
+  <div id="posts" class="posts-expand">
     
-
-      
-      
-      
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2016">2016</h2>
-        </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/posts/javabase/2016-07-12-IO流-copy练习.html" itemprop="url">
-              
-                <span itemprop="name">IO流-copy练习</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-12T16:38:20+08:00"
-              content="2016-07-12" >
-          07-12
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/posts/javabase/2016-07-12-IO流.html" itemprop="url">
-              
-                <span itemprop="name">IO流（Input Output）</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-12T08:54:20+08:00"
-              content="2016-07-12" >
-          07-12
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/posts/javabase/2016-07-05-集合框架-Generic泛型概述.html" itemprop="url">
-              
-                <span itemprop="name">集合框架-Generic泛型概述</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-05T14:09:20+08:00"
-              content="2016-07-05" >
-          07-05
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/posts/javabase/2016-07-05-集合框架-TreeSet练习.html" itemprop="url">
-              
-                <span itemprop="name">集合框架-TreeSet练习</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-05T13:19:20+08:00"
-              content="2016-07-05" >
-          07-05
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/posts/javabase/2016-07-04-集合框架-Set.html" itemprop="url">
-              
-                <span itemprop="name">集合框架-Set集合</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-04T17:23:20+08:00"
-              content="2016-07-04" >
-          07-04
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/posts/javabase/2016-07-04-集合框架-ArrayList练习.html" itemprop="url">
-              
-                <span itemprop="name">集合框架-ArrayList练习</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-04T14:00:20+08:00"
-              content="2016-07-04" >
-          07-04
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/posts/javabase/2016-07-03-集合框架-LinkedList模拟堆栈、队列的数据结构.html" itemprop="url">
-              
-                <span itemprop="name">集合框架-LinkedList模拟堆栈、队列的数据结构</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-03T18:37:20+08:00"
-              content="2016-07-03" >
-          07-03
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/posts/javabase/2016-07-03-集合框架-List集合的共性方法.html" itemprop="url">
-              
-                <span itemprop="name">集合框架-List</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-03T14:12:20+08:00"
-              content="2016-07-03" >
-          07-03
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/posts/javabase/2016-07-03-集合框架-Collection概述.html" itemprop="url">
-              
-                <span itemprop="name">集合框架-Collection概述</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-03T10:09:20+08:00"
-              content="2016-07-03" >
-          07-03
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/posts/javabase/2016-07-01-基本数据类型对象包装类.html" itemprop="url">
-              
-                <span itemprop="name">基本数据类型对象包装类</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-01T21:40:27+08:00"
-              content="2016-07-01" >
-          07-01
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-  </section>
 
   
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><a class="extend next" rel="next" href="/archives/page/2/"><i class="fa fa-angle-right"></i></a>
-  </nav>
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                IO流-copy练习
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-07-12T16:38:20+08:00" content="2016-07-12">
+              2016-07-12
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/javabase/" itemprop="url" rel="index">
+                    <span itemprop="name">java基础</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/posts/javabase/2016-07-12-IO流-copy练习.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/javabase/2016-07-12-IO流-copy练习.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/posts/javabase/2016-07-12-IO流-copy练习.html" class="leancloud_visitors" data-flag-title="IO流-copy练习">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
 
 
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="FileWriter和FileReader综合练习"><a href="#FileWriter和FileReader综合练习" class="headerlink" title="FileWriter和FileReader综合练习"></a>FileWriter和FileReader综合练习</h1><h2 id="需求-复制一个文档类型的文件到硬盘上"><a href="#需求-复制一个文档类型的文件到硬盘上" class="headerlink" title="需求:复制一个文档类型的文件到硬盘上"></a>需求:复制一个文档类型的文件到硬盘上</h2><a id="more"></a>
+<h3 id="代码演示"><a href="#代码演示" class="headerlink" title="代码演示"></a>代码演示</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> comio;</span><br><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CopyText</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		</span><br><span class="line">		copy();</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">copy</span><span class="params">()</span></span>&#123;</span><br><span class="line">		FileWriter fw = <span class="keyword">null</span>;</span><br><span class="line">		FileReader fr = <span class="keyword">null</span>;</span><br><span class="line">		<span class="keyword">try</span>&#123;</span><br><span class="line">			fw = <span class="keyword">new</span> FileWriter(<span class="string">"demo_copy.txt"</span>);</span><br><span class="line">			fr = <span class="keyword">new</span> FileReader(<span class="string">"demo.txt"</span>);</span><br><span class="line">			<span class="keyword">char</span>[] buf = <span class="keyword">new</span> <span class="keyword">char</span>[<span class="number">1024</span>];</span><br><span class="line">			<span class="keyword">int</span> len = <span class="number">0</span>;</span><br><span class="line">			<span class="keyword">while</span>((len=fr.read(buf))!=-<span class="number">1</span>)&#123;</span><br><span class="line">				fw.write(buf,<span class="number">0</span>,len);</span><br><span class="line">				<span class="comment">//打印复制的文件到控制台上</span></span><br><span class="line">				System.out.print(<span class="keyword">new</span> String(buf,<span class="number">0</span>,len));</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;<span class="keyword">catch</span>(IOException e)&#123;</span><br><span class="line">			System.out.println(e.toString());</span><br><span class="line">		&#125;<span class="keyword">finally</span>&#123;</span><br><span class="line">			<span class="keyword">try</span>&#123;</span><br><span class="line">				<span class="keyword">if</span>(fw!=<span class="keyword">null</span>)</span><br><span class="line">				fw.close();</span><br><span class="line">			&#125;<span class="keyword">catch</span>(IOException e)&#123;</span><br><span class="line">				System.out.println(e.toString());</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">try</span>&#123;</span><br><span class="line">				<span class="keyword">if</span>(fr!=<span class="keyword">null</span>)</span><br><span class="line">				fr.close();</span><br><span class="line">			&#125;<span class="keyword">catch</span>(IOException e)&#123;</span><br><span class="line">				System.out.println(e.toString());</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/note/" rel="tag">#学习笔记</a>
+          
+            <a href="/tags/IO流/" rel="tag">#IO流</a>
+          
+            <a href="/tags/FlieWriter/" rel="tag">#FlieWriter</a>
+          
+            <a href="/tags/FileReader/" rel="tag">#FileReader</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/posts/javabase/2016-07-12-IO流.html" rel="next" title="IO流（Input Output）">
+                <i class="fa fa-chevron-left"></i> IO流（Input Output）
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="posts/javabase/2016-07-12-IO流-copy练习.html"
+     data-title="IO流-copy练习"
+     data-content=""
+     data-url="http://blog.zyzhy.com/posts/javabase/2016-07-12-IO流-copy练习.html">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
 
 
           </div>
@@ -651,6 +430,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="posts/javabase/2016-07-12-IO流-copy练习.html"
+           data-title="IO流-copy练习" data-url="http://blog.zyzhy.com/posts/javabase/2016-07-12-IO流-copy练习.html">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -670,8 +457,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.png"
@@ -741,6 +537,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#FileWriter和FileReader综合练习"><span class="nav-number">1.</span> <span class="nav-text">FileWriter和FileReader综合练习</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#需求-复制一个文档类型的文件到硬盘上"><span class="nav-number">1.1.</span> <span class="nav-text">需求:复制一个文档类型的文件到硬盘上</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#代码演示"><span class="nav-number">1.1.1.</span> <span class="nav-text">代码演示</span></a></li></ol></li></ol></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -844,11 +651,9 @@
 
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
 
 
   
